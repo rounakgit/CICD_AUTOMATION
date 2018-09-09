@@ -8,7 +8,7 @@ import javax.servlet.*;
 
 
 @SuppressWarnings("serial")
-public class hello extends HttpServlet {
+public class Hello extends HttpServlet {
   public void doGet (HttpServletRequest req,
                      HttpServletResponse res)
     throws ServletException, IOException
