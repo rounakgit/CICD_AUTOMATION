@@ -1,4 +1,4 @@
-node stage {
+node  {
 stage('SCM Chekout'){
 git 'https://github.com/rounakgit/CICD_AUTOMATION'
 }
