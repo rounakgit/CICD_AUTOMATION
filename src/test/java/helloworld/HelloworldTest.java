@@ -1,14 +1,20 @@
 package helloworld;
 
-import static org.junit.Assert.*;
 
+
+import org.junit.Assert;
 import org.junit.Test;
+
 
 public class HelloworldTest {
 
+	
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		System.out.println("InsideJunit");
+		//fail("Not yet implemented");
+		//Assert.assertEquals("Ajan", "Ajn");
+		Assert.assertEquals("Anjan", "anjan");
 	}
 
 }
