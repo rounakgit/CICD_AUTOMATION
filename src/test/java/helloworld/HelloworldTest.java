@@ -14,7 +14,7 @@ public class HelloworldTest {
 		System.out.println("InsideJunit");
 		//fail("Not yet implemented");
 		//Assert.assertEquals("Ajan", "Ajn");
-		Assert.assertEquals("Anjan", "anjan");
+		Assert.assertEquals("Anjan", "Anjan");
 	}
 
 }
